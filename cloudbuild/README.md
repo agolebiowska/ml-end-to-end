@@ -16,7 +16,6 @@ limitations under the License.
 
 # CI/CD pipelines
 
-
 ## Overview
 
 There are five CI/CD pipelines
