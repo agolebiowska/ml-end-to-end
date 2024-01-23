@@ -36,7 +36,7 @@ def tensorflow_pipeline(
     dataset_id: str = "preprocessing",
     dataset_location: str = os.environ.get("VERTEX_LOCATION"),
     ingestion_dataset_id: str = "chicago_taxi_trips",
-    timestamp: str = "2022-12-01 00:00:00",
+    timestamp: str = "2024-01-22 00:00:00",
     staging_bucket: str = os.environ.get("VERTEX_PIPELINE_ROOT"),
     pipeline_files_gcs_path: str = os.environ.get("PIPELINE_FILES_GCS_PATH"),
     test_dataset_uri: str = "",
